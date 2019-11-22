@@ -1,0 +1,51 @@
+body {
+background-color:#90AFC5 ;
+
+}
+
+h1{
+
+    color:#2A3132  ;
+
+    text-align: center;
+}
+/* 
+.container{
+
+    background-color: #336B87 ;
+
+} */
+
+/* #336B87 Stone and nice medium blue */
+
+/* #2A3132 Shadow a dark gray */
+
+/* #763626 Autumn Foliage a nice brown */
+
+
+
+.movie {
+    margin: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    /* background-color:#763626; */
+    background-color: #336B87 ;
+    color: white;
+  }
+
+  .movie:hover {
+    background-color: white;
+    color: #336B87;
+  }
+
+.div{
+    margin: 10px;
+  }
+.form{
+    margin: 10px;
+  }
+.input {
+      margin: 10px;
+    }
+  
+
