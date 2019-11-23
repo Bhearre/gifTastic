@@ -13,10 +13,8 @@
     <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Added a link to Font Awesome CDN-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Added a link to a local copy of the Meyerweb reset code-->
-    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <!-- Added a link to Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
     <!-- Added a link to a local css file for this page-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
@@ -24,37 +22,38 @@
 
 <body>
 
-    <h1> gifTastic  </h1>
+    <h1> gifTastic </h1>
 
     <div class="container">
         <div class="row">
-            <!-- column 1 left buttons -->
-            <div class="col-md-6 offset-md-1">                  
-                <div id="buttons-view"></div>
-            </div>
-            <!-- column 2 right input box-->
-            <div class="col-md-4 offset-md-1">
-               
-                <form id="animal-form">
-                    <!-- <label for="animal-input">Add an animal!</label> -->
-                    <input type="text" id="animal-input"><br>
-                    <button id="add-animal" type="submit">Add an animal</button>
-                </form>
-                
+            <div class="col-md-10 offset-md-1">
+                <div class="row">
+                    <!-- column 1 left buttons -->
+                    <div class="col-md-8" id="buttons-view">
+                    </div>
+                    <!-- column 2 right input box-->
+                    <div class="col-md-4">
+                        <form id="cartoon-form">
+                            <!-- <label for="cartoon-input">Add an cartoon!</label> -->
+                            <input type="text" id="cartoon-input"><br>
+                            <button id="add-cartoon" type="submit">Add a cartoon character</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-
         </div>
-
-        <!-- Animal Gift May Eventually Show Up down here -->
-        <div id="animals-view"></div>
-
-    </div>
     </div>
 
+    <!-- cartoon Gifs May Eventually Show Up down here -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset-md-1" id="cartoons-view">
+
+            </div>
+        </div>
+    </div>
 
 
-    
 </body>
 
 
