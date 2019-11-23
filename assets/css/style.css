@@ -24,16 +24,17 @@ h1{
 
 
 
-.movie {
+.animal {
     margin: 10px;
     margin-top: 10px;
+    padding: 10px;
     border-radius: 15px;
     /* background-color:#763626; */
     background-color: #336B87 ;
     color: white;
   }
 
-  .movie:hover {
+  .animal:hover {
     background-color: white;
     color: #336B87;
   }

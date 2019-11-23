@@ -29,26 +29,33 @@
     <div class="container">
         <div class="row">
             <!-- column 1 left buttons -->
-            <div class="col-md-6 offset-md-1" class="animal-button" id="buttons-view">
-
+            <div class="col-md-6 offset-md-1">                  
+                <div id="buttons-view"></div>
             </div>
             <!-- column 2 right input box-->
             <div class="col-md-4 offset-md-1">
+               
+                <form id="animal-form">
+                    <!-- <label for="animal-input">Add an animal!</label> -->
+                    <input type="text" id="animal-input"><br>
+                    <button id="add-animal" type="submit">Add an animal</button>
+                </form>
                 
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text" id="inputGroup-sizing-default">Submit</span>
-                    </div>
-                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                  </div>
+                </div>
             </div>
 
         </div>
+
+        <!-- Animal Gift May Eventually Show Up down here -->
+        <div id="animals-view"></div>
+
     </div>
     </div>
 
 
 
+    
+</body>
 
 
 
